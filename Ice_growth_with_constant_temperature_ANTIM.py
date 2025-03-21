@@ -1,11 +1,15 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Created on Tue Apr 18 12:16:02 2023
 
-@author: alexandrenuyt
+@author: Alexandre Nuyt
 
-1 : Ice growth with constant temperature
+2 : Ice growth with constant temperature and ocean heat flux
+
+This script models the evolution of sea ice thickness over time under 
+constant atmospheric temperature conditions, taking into account 
+the effect of different ocean heat fluxes. The ice growth is determined 
+using the energy balance at the ice-ocean interface, and results are 
+compared with the analytical solution given by Stefan's law.
+
 """
 
 import numpy as np
