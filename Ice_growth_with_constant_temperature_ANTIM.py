@@ -2,7 +2,7 @@
 
 @author: Alexandre Nuyt
 
-2 : Ice growth with constant temperature and ocean heat flux
+Partie 1 : Ice growth with constant temperature and ocean heat flux
 
 This script models the evolution of sea ice thickness over time under 
 constant atmospheric temperature conditions, taking into account 
