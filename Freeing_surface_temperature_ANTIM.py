@@ -1,12 +1,17 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Created on Tue Apr 18 22:04:25 2023
 
-@author: alexandrenuyt
+@author: Alexandre Nuyt
 
-2 : Freeing surface temperature
+3 : Freezing surface temperature
+
+This script simulates the evolution of sea ice thickness and surface temperature 
+over time. It accounts for heat fluxes from solar and non-solar radiation, 
+thermal conduction, and ocean heat flux. The surface temperature is computed 
+by solving a heat balance equation, and the ice growth is determined 
+based on energy conservation principles.
+
 """
+
 
 import numpy as np
 import matplotlib.pyplot as plt
