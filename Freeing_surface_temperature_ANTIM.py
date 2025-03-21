@@ -2,7 +2,7 @@
 
 @author: Alexandre Nuyt
 
-3 : Freezing surface temperature
+Partie 2 : Freezing surface temperature
 
 This script simulates the evolution of sea ice thickness and surface temperature 
 over time. It accounts for heat fluxes from solar and non-solar radiation, 
