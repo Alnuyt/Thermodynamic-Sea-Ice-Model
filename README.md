@@ -1,5 +1,5 @@
 # Thermodynamic-Sea-Ice-Model
-Le réchauffement climatique a un impact majeur sur l’évolution de la glace de mer arctique. Ce projet, réalisé dans le cadre du coursLPHYS2265, vise à modéliser ces changements en simulant l’épaisseur de la glace à l’aide d’un modèle thermodynamique en une dimension. En s’appuyant sur les lois de la diffusion thermique et du bilan énergétique, nous avons développé et amélioré plusieurs approches successives :
+Le réchauffement climatique a un impact majeur sur l’évolution de la glace de mer arctique. Ce projet, réalisé dans le cadre du cours LPHYS2265, vise à modéliser ces changements en simulant l’épaisseur de la glace à l’aide d’un modèle thermodynamique en une dimension. En s’appuyant sur les lois de la diffusion thermique et du bilan énergétique, nous avons développé et amélioré plusieurs approches successives :
 1. **Modèle thermique de la glace de mer :** évolution avec flux de chaleur constant, ajout de la température de surface, prise en compte de la neige et des flux océaniques.
 2. **Modèle thermodynamique de la glace :** ajustement des paramètres physiques, ajout du contrôle expérimental et amélioration de la représentation de l’albédo.
 3. **Analyse multi-modèle :** étude comparative et projections climatiques sur 100 ans avec différents scénarios de forçage radiatif.
