@@ -1,46 +1,46 @@
-# Thermodynamic-Sea-Ice-Model
-Le réchauffement climatique a un impact majeur sur l’évolution de la glace de mer arctique. Ce projet, réalisé dans le cadre du cours LPHYS2265, vise à modéliser ces changements en simulant l’épaisseur de la glace à l’aide d’un modèle thermodynamique en une dimension. En s’appuyant sur les lois de la diffusion thermique et du bilan énergétique, nous avons développé et amélioré plusieurs approches successives :
-1. **Modèle thermique de la glace de mer :** évolution avec flux de chaleur constant, ajout de la température de surface, prise en compte de la neige et des flux océaniques.
-2. **Modèle thermodynamique de la glace :** ajustement des paramètres physiques, ajout du contrôle expérimental et amélioration de la représentation de l’albédo.
-3. **Analyse multi-modèle :** étude comparative et projections climatiques sur 100 ans avec différents scénarios de forçage radiatif.
+# Thermodynamic Sea Ice Model
+Global warming has a major impact on the evolution of Arctic sea ice. This project, carried out as part of the LPHYS2265 course, aims to model these changes by simulating ice thickness using a one-dimensional thermodynamic model. Based on the laws of heat diffusion and energy balance, we have developed and improved several successive approaches:
+1. **Thermal model of sea ice:** evolution with constant heat flux, addition of surface temperature, consideration of snow and ocean currents.
+2. **Thermodynamic ice model:** adjustment of physical parameters, addition of experimental control and improvement of albedo representation.
+3. **Multi-model analysis:** comparative study and 100-year climate projections with different radiative forcing scenarios.
 
-## Partie 1 : Modèle Thermodynamique de la Glace de Mer
-Dans cette première partie, nous avons modélisé l'évolution de l'épaisseur de la glace en fonction des flux de chaleur conductifs et des variations de température. Les étapes principales sont :
+## Part 1: Thermodynamic Model of Sea Ice
+In this first part, we modelled the evolution of ice thickness as a function of conductive heat fluxes and temperature variations. The main steps are:
 
-- Simulation de la croissance de la glace avec un flux de chaleur constant provenant de l'océan.
-- Intégration de l'évolution de la température de surface dans le modèle.
-- Ajout d'une couche de neige et d'un mélange océanique pour plus de réalisme.
+- Simulation of ice growth with a constant heat flux from the ocean.
+- Integration of surface temperature evolution into the model.
+- Addition of a snow layer and ocean mixture for greater realism.
 
-Les résultats montrent que l'épaisseur finale de la glace est bien corrélée aux prévisions théoriques et dépend fortement du flux océanique.
+The results show that the final ice thickness correlates well with theoretical predictions and depends strongly on ocean flow.
 
-## Partie 2 : Modèle Thermodynamique Amélioré
-Dans cette seconde phase, nous avons affiné le modèle en ajoutant :
+## Part 2: Improved Thermodynamic Model
+In this second phase, we refined the model by adding:
 
-- Un contrôle expérimental comparant notre simulation à des modèles de référence (hiMU71).
-- Une correction des valeurs d'épaisseur de glace pour assurer une meilleure correspondance avec les données observées.
-- Une prise en compte améliorée de l'albédo pour différentes conditions de surface (neige sèche, glace nue, etc.).
+- An experimental control comparing our simulation with reference models (hiMU71).
+- A correction of ice thickness values to ensure better correspondence with observed data.
+- Improved consideration of albedo for different surface conditions (dry snow, bare ice, etc.).
 
-L'évolution saisonnière de l'épaisseur de glace montre une dynamique réaliste avec une variation annuelle significative.
+The seasonal evolution of ice thickness shows realistic dynamics with significant annual variation.
 
-## Partie 3 : Analyse Multi-Modèle
-Dans cette dernière étape, une approche collaborative a permis de comparer plusieurs modèles étudiants. Nous avons effectué des projections sur 100 ans en prenant en compte différentes hypothèses de forçage radiatif (augmentation du rayonnement infrarouge descendant) avec trois scénarios :
+## Part 3: Multi-Model Analysis
+In this final stage, a collaborative approach was used to compare several student models. We made 100-year projections taking into account different radiative forcing assumptions (increase in downward infrared radiation) with three scenarios:
 
 - PR03 (+3 W/m²)
 - PR06 (+6 W/m²)
 - PR12 (+12 W/m²)
 
-Les principaux résultats sont :
+The main results are:
 
-- Une tendance générale à la diminution de l'épaisseur de la glace au fil des années.
-- Une fonte plus marquée en été lorsque la température de surface dépasse le seuil de fusion.
-- Une sensibilité accrue du modèle aux variations des paramètres d’entrée, notamment l’albédo et la couche de neige.
+- A general trend towards a decrease in ice thickness over the years.
+- More pronounced melting in summer when the surface temperature exceeds the melting threshold.
+- Increased sensitivity of the model to variations in input parameters, particularly albedo and snow cover.
 
 ## Conclusion
-Les résultats obtenus confirment la forte influence des forçages radiatifs sur l’évolution de la glace de mer. Nos simulations montrent que même avec un faible forçage (PR03), l’épaisseur de la glace diminue progressivement. Sous un scénario plus sévère (PR12), la perte de glace atteint 50 % en un siècle. Cette tendance est cohérente avec les observations climatiques actuelles et souligne l’urgence de limiter les émissions de gaz à effet de serre.
+The results confirm the strong influence of radiative forcing on sea ice evolution. Our simulations show that even with low forcing (PR03), ice thickness gradually decreases. Under a more severe scenario (PR12), ice loss reaches 50% in a century. This trend is consistent with current climate observations and highlights the urgency of limiting greenhouse gas emissions.
 
-Une amélioration du modèle pourrait inclure l'interaction entre la glace et les courants océaniques, ainsi que l'intégration d'une dynamique atmosphérique plus détaillée. De futures recherches pourraient également se concentrer sur les impacts de cette fonte sur l'écosystème arctique et le climat global.
+Improvements to the model could include the interaction between ice and ocean currents, as well as the integration of more detailed atmospheric dynamics. Future research could also focus on the impacts of this melting on the Arctic ecosystem and global climate.
 
-## Utilisation 
-Exécutez les scripts des codes pour : 
-- Modèle Thermodynamique de la Glace de Mer : [Ice_growth_with_constant_temperature_ANTIM.py](Ice_growth_with_constant_temperature_ANTIM.py)
-- Modèle Thermodynamique Amélioré : [Freeing_surface_temperature_ANTIM.py](Freeing_surface_temperature_ANTIM.py)
+## Use 
+Run the code scripts for:
+- Thermodynamic Model of Sea Ice: [Ice_growth_with_constant_temperature_ANTIM.py](Ice_growth_with_constant_temperature_ANTIM.py)
+- Improved Thermodynamic Model: [Freeing_surface_temperature_ANTIM.py](Freeing_surface_temperature_ANTIM.py)
